@@ -97,7 +97,7 @@ const SignUp = () => {
             </form>
 
             <p>
-              Already have an account?{" "}
+              Already have an account?
               <NavLink to="/login">
                 <span className="p-2 text-lg underline cursor-pointer">
                   Sign in
