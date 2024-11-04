@@ -9,11 +9,9 @@ const Home = () => {
   const handleLogout = () => {
     signOut(auth)
       .then(() => {
-        // Sign-out successful.
         navigate("/");
       })
       .catch((error) => {
-        // An error occurred.
         console.error("Error signing out:", error);
       });
   };

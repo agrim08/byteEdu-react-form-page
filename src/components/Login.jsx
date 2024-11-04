@@ -27,7 +27,6 @@ const Login = () => {
       <section className=" flex flex-col justify-center  m-auto">
         <div className="flex flex-col justify-center items-center m-auto">
           <h1 className="font-bold text-4xl mt-2"> Registration Form </h1>
-
           <form className="p-2 border border-black rounded-md shadow-lg w-96  gap-3 flex flex-col justify-center  items-center m-auto mt-20 h-72">
             <div className="m-2">
               <label
