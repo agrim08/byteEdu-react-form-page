@@ -1,6 +1,6 @@
 import React from "react";
 import { signOut } from "firebase/auth";
-import { auth } from "../firebase";
+import { auth } from "../utils/firebase";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -20,7 +20,6 @@ const Home = () => {
     <>
       <nav>
         <p>Welcome Home</p>
-
         <div>
           <button onClick={handleLogout}>Logout</button>
         </div>
